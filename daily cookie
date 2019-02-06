@@ -1,0 +1,25 @@
+{
+  "name": "dailycookie",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "yUCsA",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "cookie.system",
+      "changeType": "1",
+      "value": "1",
+      "name": "Control Member Data"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "${member} has redeemed their daily 🍪",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ],
+  "_timeRestriction": 2073600
+}
