@@ -1,0 +1,52 @@
+{
+  "name": "setcookies",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "1",
+  "_id": "nHNAA",
+  "actions": [
+    {
+      "info": "0",
+      "infoIndex": "1",
+      "storage": "1",
+      "varName": "amount.cookes",
+      "name": "Store Command Params"
+    },
+    {
+      "condition": "0",
+      "comparison": "0",
+      "value": "1",
+      "iftrue": "3",
+      "iftrueVal": "2",
+      "iffalse": "0",
+      "iffalseVal": "2",
+      "name": "Check Parameters"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "🍪 Something went wrong using the cookie command.\nPlease type an amount of cookies you want to set it to. Example: `.setcookies 25`",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "cookie.system",
+      "changeType": "1",
+      "value": "tempVars(\"amount.cookes\")",
+      "name": "Control Member Data"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "${member} has set their 🍪 to **${tempVars(\"amount.cookes\")}**",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
