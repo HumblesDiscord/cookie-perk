@@ -1,0 +1,25 @@
+
+{
+  "name": "resetcookies",
+  "permissions": "ADMINISTRATOR",
+  "restriction": "1",
+  "_id": "vYZGB",
+  "actions": [
+    {
+      "member": "0",
+      "varName": "",
+      "dataName": "cookie.system",
+      "changeType": "0",
+      "value": "0",
+      "name": "Control Member Data"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "✔ Set ${mentionedUser}'s 🍪 to **0**.",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
