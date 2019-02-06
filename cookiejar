@@ -1,0 +1,25 @@
+{
+  "name": "cookiejar",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "fntga",
+  "actions": [
+    {
+      "member": "1",
+      "varName": "",
+      "dataName": "cookie.system",
+      "defaultVal": "0",
+      "storage": "1",
+      "varName2": "authors.cookies",
+      "name": "Store Member Data"
+    },
+    {
+      "channel": "0",
+      "varName": "",
+      "message": "${member}, you have **${tempVars(\"authors.cookies\")}** 🍪",
+      "storage": "0",
+      "varName2": "",
+      "name": "Send Message"
+    }
+  ]
+}
