@@ -1,0 +1,41 @@
+{
+  "name": "cookiehelp",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "CDvkf",
+  "actions": [
+    {
+      "title": "Cookie Perk | We all love cookies",
+      "author": "",
+      "color": "#CE6F35",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "2",
+      "varName": "cookieperkHELP",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "2",
+      "varName": "cookieperkHELP",
+      "message": "🍪 __Cookie Perk & Info__\nThe cookie perk is a perk that everybody has access to use. It's a useless perk that just makes users have fun. Members are able to redeem a cookie everyday by typing `.dailycookie`. If you would like to check how many cookies you have, you can type `.cookiejar` and it will tell you have many cookies you have. This command is still in testing so you should expect some bugs, hopefully not. If you witness a bug, please contact Humble#01111. Enjoy the command!\n\n__Cookie Commands__\n`.cookieshop` Shows the shop and stuff that you can buy with cookies.\n`.cookieperk` Shows the help option which is what you're looking at right now\n`.cookiejar` Shows how many cookies you have.\n`.dailycookie` Receive your cookie everyday.\n\n__Admin Commands__\n`.setcookies [number]` Sets the number of cookies you want in your jar.\n`.resetcookies [member` Resets a members cookies.",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "2",
+      "varName": "cookieperkHELP",
+      "message": "🍪 Cookie Perk | Made By Humble#9559. If you witness any problems with the perk, please contact an admin or Humble#9559",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "2",
+      "varName": "cookieperkHELP",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
