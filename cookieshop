@@ -1,0 +1,41 @@
+{
+  "name": "cookieshop",
+  "permissions": "NONE",
+  "restriction": "1",
+  "_id": "ZWiqD",
+  "actions": [
+    {
+      "title": "Cookie System",
+      "author": "",
+      "color": "#CE6F35",
+      "timestamp": "false",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "https://www.google.com/search?q=cookie+cartoon+images&rlz=1C1CHBF_enUS725US725&source=lnms&tbm=isch&sa=X&ved=0ahUKEwif-ODlvp3gAhUBJt8KHRRoAcQQ_AUIDigB&biw=1368&bih=771#imgrc=s8TZa-M4cBr4jM:",
+      "thumbUrl": "",
+      "storage": "2",
+      "varName": "cookie.shop",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "2",
+      "varName": "cookie.shop",
+      "message": "`Custom Role` **30 🍪**\n`Remove Warninga` **25 🍪**\n`Custom Channel` **35 🍪**\n`Advertisement` **60 🍪**\n",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "2",
+      "varName": "cookie.shop",
+      "message": "🍪 Cookie Perk | Made By: Humble#0111",
+      "footerIcon": "",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "2",
+      "varName": "cookie.shop",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
